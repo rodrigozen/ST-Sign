@@ -1,6 +1,7 @@
-Signatori
-=========
+Sign
+====
 
 A plugin to easily name-, date-, and time-stamp in code.
+You can configure your name and the time-stamp format.
 
-Right now, this plugin only allows a user to specify their name to be used in the signature.
+[Bug reports, feature requests, ...](https://ge1.me/sublimetext-sign-issues)

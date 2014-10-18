@@ -12,20 +12,20 @@
                 "children":
                 [
                     {
-                        "caption": "Signatori",
+                        "caption": "Sign",
                         "children":
                         [
                             {
                                 "command": "open_file", "args":
                                 {
-                                    "file": "${packages}/Signatori/Signatori.sublime-settings"
+                                    "file": "${packages}/Sign/Sign.sublime-settings"
                                 },
                                 "caption": "Settings – Default"
                             },
                             {
                                 "command": "open_file", "args":
                                 {
-                                    "file": "${packages}/User/Signatori.sublime-settings"
+                                    "file": "${packages}/User/Sign.sublime-settings"
                                 },
                                 "caption": "Settings – User"
                             },
@@ -33,7 +33,7 @@
                             {
                                 "command": "open_file",
                                 "args": {
-                                    "file": "${packages}/Signatori/Default (Windows).sublime-keymap",
+                                    "file": "${packages}/Sign/Default (Windows).sublime-keymap",
                                     "platform": "Windows"
                                 },
                                 "caption": "Key Bindings – Default"
@@ -41,7 +41,7 @@
                             {
                                 "command": "open_file",
                                 "args": {
-                                    "file": "${packages}/Signatori/Default (OSX).sublime-keymap",
+                                    "file": "${packages}/Sign/Default (OSX).sublime-keymap",
                                     "platform": "OSX"
                                 },
                                 "caption": "Key Bindings – Default"
@@ -49,7 +49,7 @@
                             {
                                 "command": "open_file",
                                 "args": {
-                                    "file": "${packages}/Signatori/Default (Linux).sublime-keymap",
+                                    "file": "${packages}/Sign/Default (Linux).sublime-keymap",
                                     "platform": "Linux"
                                 },
                                 "caption": "Key Bindings – Default"
