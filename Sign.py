@@ -7,9 +7,10 @@ class SignCommand(sublime_plugin.TextCommand):
     def run(self, edit):
         #load settings
         settings = sublime.load_settings("Sign.sublime-settings")
+        user_name = settings.get('user_name', '')
         #generate the timestamp
         timestamp_str = ''
-        timestamp_str = '[' + settings.get('user_name', '') + ' @ '
+        timestamp_str = '[' + user_name + (' @ ' if user_name != '' else '')
         timestamp_str = timestamp_str + datetime.datetime.now().strftime(settings.get('date_format',''))
         timestamp_str = timestamp_str + '] '
 
